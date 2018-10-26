@@ -11,4 +11,8 @@
             <servlet-name>ServletDemo</servlet-name>
             <url-pattern>/ServletDemo</url-pattern>
         </servlet-mapping>
+        
+        <listener>
+            <listener-class>com.startai.util.C3P0Util</listener-class>
+        </listener>
 </web-app>
